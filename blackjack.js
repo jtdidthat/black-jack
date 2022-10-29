@@ -28,13 +28,13 @@ function startGame(){
 }
 
 function getRandomCard(){
-    let randomNumer = Math.floor( Math.random()* 6) + 1
-    if (randomNumer > 10){
+    let randomNumber = Math.floor( Math.random()* 6) + 1
+    if (randomNumber > 10){
         return 10
-    }else if (randomNumer === 1){
+    }else if (randomNumber === 1){
         return 11
     }else {
-        return randomNumer
+        return randomNumber
     }
 }
 
